@@ -1,4 +1,4 @@
-let fechaNacimiento = moment("1990-01-01");
+/* let fechaNacimiento = moment("1990-01-01");
 
 let fecha = document.querySelector("#fecha");
 
@@ -19,3 +19,9 @@ calendario.addEventListener("change", function () {
         fechaPedido.innerText = diferencia;
     }
 });
+ */
+
+let fechaNacimiento = moment("1990-01-01");
+
+let fecha = document.querySelector("#fecha");
+fecha.innerText = fechaNacimiento.format("DD-MM-YYYY");
